@@ -24,10 +24,14 @@ The model architecture is designed to extract features from Mel spectrograms and
 7. **Dense Layer:** Performs classification with a sigmoid activation function.
 
 <div align="center">
-  <img src="model_architecture.png" alt="Image Description" width="300"/>
+  <img src="eval/audio_classifier.h5.png" alt="Image Description" width="300"/>
 </div>
 
+## Metrics 
 
+![prc](eval/prc.png)
+![cc](eval/cc.png)
+![roc](eval/roc.png)
 ## Getting Started
 
 ### Installation
